@@ -1,0 +1,14 @@
+{
+  "name": "funCodes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^5.4.19",
+    "spotify-playlist": "^0.0.4",
+    "util": "^0.11.1"
+  }
+}
