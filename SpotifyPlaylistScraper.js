@@ -48,38 +48,7 @@ spotifyAxios.get("https://api.spotify.com/v1/playlists/37i9dQZEVXcPogECItVIUy/tr
 
     })
     .catch(err => { return console.log("err: ", err) })
-    //     for (var i = 0; i < response.data.items.length; i++) {
 
-    //         var obj = {};
-    //         const abResponse = response.data.items[i].track
-
-    //         obj.Album = item.album.name
-    //         obj.Artists = item.artists.map(artist => {
-    //             return {
-    //                 "Name": artist.name,
-    //                 "URI": artist.uri
-    //             }
-    //         })
-
-    //         obj.Name = item.name;
-    //         obj.URI = item.uri;
-
-    //         // fs.readFile('results.json', function (err, data) {
-    //         //             var json = JSON.parse(data)
-    //         //             // for (var i = 0; i < result.playlist.tracks.length; i++) {}
-    //         //             var toPush = JSON.stringify(obj)
-    //         //             json.push(toPush)
-
-    //         //             fs.writeFile("results.json", json, () => {
-    //         //                 console.log("done")
-    //         //             })
-    //         // })
-
-    //     }
-    // })
-    // .catch(err => {
-    //     console.log("ERR: " + err)
-    // })
 
 
 
